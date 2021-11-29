@@ -1,0 +1,15 @@
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/bin/Debug/net6.0/2-new_project
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/bin/Debug/net6.0/2-new_project.deps.json
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/bin/Debug/net6.0/2-new_project.runtimeconfig.json
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/bin/Debug/net6.0/2-new_project.dll
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/bin/Debug/net6.0/ref/2-new_project.dll
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/bin/Debug/net6.0/2-new_project.pdb
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/obj/Debug/net6.0/2-new_project.csproj.AssemblyReference.cache
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/obj/Debug/net6.0/2-new_project.GeneratedMSBuildEditorConfig.editorconfig
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/obj/Debug/net6.0/2-new_project.AssemblyInfoInputs.cache
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/obj/Debug/net6.0/2-new_project.AssemblyInfo.cs
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/obj/Debug/net6.0/2-new_project.csproj.CoreCompileInputs.cache
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/obj/Debug/net6.0/2-new_project.dll
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/obj/Debug/net6.0/ref/2-new_project.dll
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/obj/Debug/net6.0/2-new_project.pdb
+/home/sergito/Documentos/holbertonschool-csharp/0x00-csharp-hello_world/2-new_project/obj/Debug/net6.0/2-new_project.genruntimeconfig.cache
