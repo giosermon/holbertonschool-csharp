@@ -1,0 +1,13 @@
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/netcoreapp2.1/12-fizzbuzz.deps.json
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/netcoreapp2.1/12-fizzbuzz.runtimeconfig.json
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/netcoreapp2.1/12-fizzbuzz.runtimeconfig.dev.json
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/netcoreapp2.1/12-fizzbuzz.dll
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/netcoreapp2.1/12-fizzbuzz.pdb
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.csproj.AssemblyReference.cache
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.GeneratedMSBuildEditorConfig.editorconfig
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.AssemblyInfoInputs.cache
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.AssemblyInfo.cs
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.csproj.CoreCompileInputs.cache
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.dll
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.pdb
+/home/sergito/Documentos/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.genruntimeconfig.cache
