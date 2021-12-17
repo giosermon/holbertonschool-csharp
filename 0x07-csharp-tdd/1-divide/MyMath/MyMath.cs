@@ -2,32 +2,30 @@ using System;
 
 namespace MyMath
 {
-    ///<summary>Performs operations on 2 dimensional matrixies.</summary>
+    /// <summary>Represents a Matrix class.</summary>
     public class Matrix
     {
-        ///<summary>Divides elements in a matrix by a number.</summary>
-        public static int[,] Divide(int[,] matrix, int num)
-        {
+        /// <summary> Divide matrix elements by the given number </summary>
+        /// <param name="matrix">Matrix with a given values.</param>
+        /// <param name="num">Divider.</param>
+        /// <returns>Divided numbers in a new matrix</returns>
+        public static int[,] Divide(int[,] matrix, int num){
             if (matrix == null)
-            {
-                return (null);
-            }
-            if (num == 0)
-            {
-                Console.WriteLine("Num cannot be 0");
-                return (null);
-            }
-            int mHeight = matrix.GetLength(0);
-            int mWidth = matrix.GetLength(1);
-            int[,] newMatrix = new int[mHeight, mWidth];
-            for (int i = 0; i < mHeight; i++)
-            {
-                for (int j = 0; j < mWidth; j++)
-                {
-                    newMatrix[i, j] = matrix[i,j] / num;
+                return null;
+            
+            int [,] newMatrix = new int[matrix.GetLength(0), matrix.GetLength(1)];
+            for (int y = 0; y < matrix.GetLength(0); y++){
+                for (int x = 0; x < matrix.GetLength(1); x++){
+                    try{
+                        newMatrix[y,x] = matrix[y,x] / num; 
+                    }
+                    catch{
+                        Console.WriteLine("Num cannot be 0");
+                        return null; 
+                    }
                 }
             }
-            return (newMatrix);
+            return newMatrix;
         }
     }
 }
