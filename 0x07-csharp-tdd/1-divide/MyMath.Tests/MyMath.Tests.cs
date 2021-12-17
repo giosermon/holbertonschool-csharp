@@ -1,31 +1,42 @@
 using NUnit.Framework;
-using System.Drawing.Drawing2D;
-using System.Collections.Generic;
-using MyMath;
 
 namespace MyMath.Tests
 {
+    [TestFixture]
     public class Tests
     {
-        [SetUp]
-        public void Setup()
+        [Test]
+        public void Test_Matrix_Divide_Arr_7Width_1Height()
         {
+            int[,] arr = new int[,] { { 0 }, { 1 }, { 2 }, { 3 }, { 4 }, { 5 }, { 6 } };
+            int[,] res = new int[,] { { 0 }, { 0 }, { 1 },  { 1 },  { 2 }, { 2 },  { 3 } };
+
+            Assert.AreEqual(res, Matrix.Divide(arr, 2));
         }
-   
 
         [Test]
-        public void TestCase1(){
-            int[,] test = new int[,] { { 2, 4 }, { 6, 8 }, { 10, 12 }, { 24, 40 } };
-            Assert.IsNull(MyMath.Matrix.Divide(test, 0));
+        public void Test_Matrix_Divide()
+        {
+            int[,] arr = new int[,] { { 2, 2, 18}, { 1, 2, 3} };
+            int[,] res = new int[,] { { 1, 1, 9}, { 0, 1, 1} };
+
+            Assert.AreEqual(res, Matrix.Divide(arr, 2));
         }
+
         [Test]
-        public void TestCase2(){
-            int[,] test = new int[,] { { 2, 4 }, { 6, 8 }, { 10, 12 }, { 24, 40 } };
-            Assert.AreEqual(new int[,] {{1, 2}, {3, 4}, {5, 6}, {12, 20}}, MyMath.Matrix.Divide(test, 2));
+        public void Test_Matrix_Divide_by_0()
+        {
+            int[,] arr = new int[,] { { 2, 2, 18}, { 1, 2, 3} };
+
+            Assert.AreEqual(null, Matrix.Divide(arr, 0));
         }
+
         [Test]
-        public void TestCase3(){
-            Assert.IsNull(MyMath.Matrix.Divide(null, 2));
+        public void Test_Matrix_Divide_Null_Matrix_by_3()
+        {
+            int[,] arr = null;
+
+            Assert.AreEqual(null, Matrix.Divide(arr, 3));
         }
     }
 }
