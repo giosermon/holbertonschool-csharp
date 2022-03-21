@@ -9,7 +9,7 @@ public class Queue<T>
     /// Checks the type of this generic class.
     /// </summary>
     /// <returns>Returns the type of the generic class.</returns>
-    public Type CheckType(){
+    public string CheckType(){
         return typeof(T).ToString();
     }
 
